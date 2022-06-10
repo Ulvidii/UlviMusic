@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/Xatireler_ebedidir",
+    "website": "https://t.me/UlviSupport",
     "repository": "https://github.com/Rahid_2003/Rahid-MP3",
-    "success_url": "https://t.me/Bayramova_o5",
+    "success_url": "https://t.me/BrendUlvi",
     "env": {
         "API_ID": {
             "description": "My.telegram'dan uygulama apı-hash.org/apps",
@@ -60,22 +60,22 @@
         "GROUP_SUPPORT": {
             "description": "Grup kullanıcı adı @ olmadan yazınız.",
             "required": true,
-            "value": "Kinggame98"
+            "value": "Ulvi_Support"
         },
         "UPDATES_CHANNEL": {
             "description": "Kanal kullanıcı adı @ olmadan yazınız.",
             "required": true,
-            "value": "Xatireler_ebedidir"
+            "value": "UlviSupport"
         },
         "OWNER_NAME": {
             "description": "Kendi kullanıcı adınız @ olmadan yazınız",
             "required": true,
-            "value": "Bayramova_o5"
+            "value": "BrendUlvi"
         },
         "ALIVE_NAME": {
             "description": "telgraf hesabınızın takma adı/adıyla doldurun",
             "required": true,
-            "value": "Bayramova_o5"
+            "value": "BrendUlvi"
         }
     },
     "addons": [],
