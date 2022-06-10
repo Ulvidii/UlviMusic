@@ -34,7 +34,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton("📚 Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("😍 Sahibəm", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("😍 Sahib", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -85,7 +85,7 @@ async def cbcmds(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📚 Sahib əmrləri ", callback_data="cbsudo"),
+                    InlineKeyboardButton("📚 Sahibim əmrləri ", callback_data="cbsudo"),
                     InlineKeyboardButton("📚 Əsas əmrlər", callback_data="cbbasic")
                 ],[
                     InlineKeyboardButton("🔙  Geri  🔙", callback_data="cbstart")
