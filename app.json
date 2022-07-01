@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/UlviSupport",
-    "repository": "https://github.com/Rahid_2003/Rahid-MP3",
-    "success_url": "https://t.me/BrendUlvi",
+    "website": "https://t.me/MorphinChat",
+    "repository": "https://github.com/Ulvidii/UlviMusic" ,
+    "success_url": "https://t.me/Br3ndUlvi",
     "env": {
         "API_ID": {
             "description": "My.telegram'dan uygulama apı-hash.org/apps",
@@ -55,27 +55,27 @@
         "UPSTREAM_REPO": {
             "description": "Bu, güncelleme özelliği için gereklidir, eğer çatallı repo dağıttıysanız, olduğu gibi bırakmazsanız, çatallı repo bağlantınızı buraya koyun",
             "required": true,
-            "value": "https://github.com/Rahid_2003/Rahid-MP3"
+            "value": "https://github.com/Ulvidii/UlviMusic"
         },
         "GROUP_SUPPORT": {
             "description": "Grup kullanıcı adı @ olmadan yazınız.",
             "required": true,
-            "value": "Ulvi_Support"
+            "value": "MorphinChat"
         },
         "UPDATES_CHANNEL": {
             "description": "Kanal kullanıcı adı @ olmadan yazınız.",
             "required": true,
-            "value": "UlviSupport"
+            "value": "UlviiBlogs"
         },
         "OWNER_NAME": {
             "description": "Kendi kullanıcı adınız @ olmadan yazınız",
             "required": true,
-            "value": "BrendUlvi"
+            "value": "Br3ndUlvi"
         },
         "ALIVE_NAME": {
             "description": "telgraf hesabınızın takma adı/adıyla doldurun",
             "required": true,
-            "value": "BrendUlvi"
+            "value": "Br3ndUlvi"
         }
     },
     "addons": [],
