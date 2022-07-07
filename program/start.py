@@ -75,14 +75,14 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("📚 Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("😍 Sahib", url=f"https://t.me/BrendUlvi"),
+                    InlineKeyboardButton("😍 Sahib", url=f"https://t.me/Huseynov666"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Söhbət Qrupu", url=f"https://t.me/Ulvi_Support"
+                        "💬 Support Qrupum", url=f"https://t.me/Ulvi_Support"
                     ),
                     InlineKeyboardButton(
-                        "🥰 Kanalım", url=f"https://t.me/UlviSupport"
+                        "Kanal", url=f"https://t.me/UlviProject"
                     ),
                 ],
             ]
@@ -103,9 +103,9 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/UlviSupport"),
+                InlineKeyboardButton("📣 Dəstək", url=f"https://t.me/UlviSup"),
                 InlineKeyboardButton(
-                    "🗯️ Məlumat", url=f"https://t.me/BrendUlvi"
+                    "🗯️ Məlumat", url=f"https://t.me/Huseynov666"
                 ),
             ]
         ]
@@ -170,8 +170,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/UlviSupport"),
-                            InlineKeyboardButton("🗯️ Dəstək", url=f"https://t.me/Ulvi_Support")
+                            InlineKeyboardButton("📣 Məlumat", url=f"https://t.me/UlviProject"),
+                            InlineKeyboardButton("🗯️ Dəstək", url=f"https://t.me/UlviSup")
                         ],
                         [
                             InlineKeyboardButton("🎙 Asistan", url=f"https://t.me/UlviMusicAsistant")
